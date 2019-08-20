@@ -1,0 +1,18 @@
+<div class="container">
+    <h2>
+        {{employeeDtls.empName|uppercase}}
+    </h2>
+    <div class="container">
+        <div>Employee Id : {{employeeDtls.empId}}</div>
+        <div>Date of Birth : {{employeeDtls.empDOB}}</div>
+        <div>Mobile Number : {{employeeDtls.empMobileNo}}</div>
+        <b>Employee Address</b>
+        <div class="container">
+            <div>Address Line 1 : {{employeeDtls.empAddress.addressLine1}}</div>
+            <div>Address Line 2 : {{employeeDtls.empAddress.addressLine2}}</div>
+            <div>City : {{employeeDtls.empAddress.city}}</div>
+            <div>District : {{employeeDtls.empAddress.district}}</div>
+            <div>State : {{employeeDtls.empAddress.state}}</div>
+        </div>
+    </div>
+</div>
